@@ -13,8 +13,8 @@ const cheeses = [
   },
   {
     id: 3,
-    type: 'Provalone',
-    color: 'antiquewhite	',
+    type: 'Provolone',
+    color: 'antiquewhite',
     price: 40
   },
   {
