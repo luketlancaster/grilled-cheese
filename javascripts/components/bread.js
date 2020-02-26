@@ -16,7 +16,7 @@ const breadsToDom = () => {
     domString += `
       <div class="form-check form-check-inline">
         <input class="form-check-input bread-radio" type="radio" name="inlineRadioOptions" id="${bread.id}" value="${bread.type}">
-        <label class="form-check-label" for="${bread.id}">${bread.type}</label>
+        <label class="form-check-label bread-label" for="${bread.id}"><label>${bread.type}</label>
       </div>
     `;
   })

@@ -13,7 +13,7 @@ const cheesesToDom = () => {
   `;
   cheeses.forEach(cheese => {
     domString += `
-      <button type="button" id="${cheese.id} "class="m-1 btn btn-secondary btn-lg cheese-button">${cheese.type}</button>
+      <button type="button" id="${cheese.id} "class="m-1 btn btn-secondary btn-lg cheese-button" style="background-color:${cheese.color}">${cheese.type}</button>
     `;
   });
 

@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
+
 body {
   background-color: brown;
+  font-family: 'Trade Winds';
 }
 
 .breads {
   background-color: saddlebrown;
-  border-radius: 10px 10px 0 0;
+  border-radius: 20px 20px 15px 15px;
   border: 3px solid goldenrod;
   border-bottom: none;
   margin-top: 20px;
@@ -15,10 +18,23 @@ body {
   margin: 10px;
 }
 
+.bread-label label {
+  font-size: 20px;
+  margin: 0;
+}
+
 .cheeses {
   background-color: orangered;
-  border-radius: 0 0 10px 10px;
+  border-radius: 20px 20px 10px 10px;
   border: 3px solid goldenrod;
   border-top: none;
   padding: 10px;
+}
+
+.cheese-button {
+  color: black;
+}
+
+.cheese-button:hover {
+  color: navy;
 }
